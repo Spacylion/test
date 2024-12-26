@@ -12,7 +12,4 @@ export class PushNotification implements INotification {
     constructor(data: INotification) {
         console.debug("Push Notification Data", data);
     }
-
-
 }
-
